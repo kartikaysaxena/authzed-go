@@ -831,7 +831,7 @@
           "description": "schema_used holds the schema used for the request."
         }
       },
-      "description": "DebugInformation defines debug information returned by an API call in a footer when\nrequested with a specific debugging header.\n\nThe specific debug information returned will depend on the type of the API call made.\n\nSee the github.com/authzed/authzed-go project for the specific header and footer names."
+      "description": "DebugInformation defines debug information returned by an API call in a footer when\nrequested with a specific debugging header.\n\nThe specific debug information returned will depend on the type of the API call made.\n\nSee the github.com/kartikaysaxena/authzed-go project for the specific header and footer names."
     },
     "v1DeleteRelationshipsRequest": {
       "type": "object",
