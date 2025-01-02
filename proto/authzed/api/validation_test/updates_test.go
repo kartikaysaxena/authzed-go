@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	v1 "github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
+	v1 "github.com/authzed/authzed-go/proto/authzed/api/v1"
 )
 
 func TestV1UpdateValidity(t *testing.T) {

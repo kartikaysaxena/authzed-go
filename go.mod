@@ -1,4 +1,4 @@
-module github.com/kartikaysaxena/authzed-go
+module github.com/authzed/authzed-go
 
 go 1.22.7
 

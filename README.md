@@ -1,6 +1,6 @@
 # Official SpiceDB Go Client
 
-[![GoDoc](https://godoc.org/github.com/kartikaysaxena/authzed-go?status.svg)](https://godoc.org/github.com/kartikaysaxena/authzed-go)
+[![GoDoc](https://godoc.org/github.com/authzed/authzed-go?status.svg)](https://godoc.org/github.com/authzed/authzed-go)
 [![Docs](https://img.shields.io/badge/docs-authzed.com-%234B4B6C "Authzed Documentation")](https://authzed.com/docs)
 [![YouTube](https://img.shields.io/youtube/channel/views/UCFeSgZf0rPqQteiTQNGgTPg?color=%23F40203&logo=youtube&style=flat-square&label=YouTube "Authzed YouTube Channel")](https://www.youtube.com/channel/UCFeSgZf0rPqQteiTQNGgTPg)
 [![Discord Server](https://img.shields.io/discord/844600078504951838?color=7289da&logo=discord "Discord Server")](https://authzed.com/discord)
@@ -28,13 +28,13 @@ You can find issues by priority: [Urgent], [High], [Medium], [Low], [Maybe].
 There are also [good first issues].
 
 [Discord]: https://authzed.com/discord
-[CONTRIBUTING.md]: https://github.com/kartikaysaxena/authzed-go/blob/main/CONTRIBUTING.md
-[Urgent]: https://github.com/kartikaysaxena/authzed-go/labels/priority%2F0%20urgent
-[High]: https://github.com/kartikaysaxena/authzed-go/labels/priority%2F1%20high
-[Medium]: https://github.com/kartikaysaxena/authzed-go/labels/priority%2F2%20medium
-[Low]: https://github.com/kartikaysaxena/authzed-go/labels/priority%2F3%20low
-[Maybe]: https://github.com/kartikaysaxena/authzed-go/labels/priority%2F4%20maybe
-[good first issues]: https://github.com/kartikaysaxena/authzed-go/labels/hint%2Fgood%20first%20issue
+[CONTRIBUTING.md]: https://github.com/authzed/authzed-go/blob/main/CONTRIBUTING.md
+[Urgent]: https://github.com/authzed/authzed-go/labels/priority%2F0%20urgent
+[High]: https://github.com/authzed/authzed-go/labels/priority%2F1%20high
+[Medium]: https://github.com/authzed/authzed-go/labels/priority%2F2%20medium
+[Low]: https://github.com/authzed/authzed-go/labels/priority%2F3%20low
+[Maybe]: https://github.com/authzed/authzed-go/labels/priority%2F4%20maybe
+[good first issues]: https://github.com/authzed/authzed-go/labels/hint%2Fgood%20first%20issue
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ We highly recommend following the **[Protecting Your First App]** guide to learn
 If you're using a modern version of [Go], run the following commands to add dependencies to your project:
 
 ```sh
-go get github.com/kartikaysaxena/authzed-go
+go get github.com/authzed/authzed-go
 go get github.com/authzed/grpcutil
 ```
 
@@ -64,7 +64,7 @@ Because this library is using [gRPC] under the hood, you are free to leverage th
 
 In order to successfully connect, you will have to provide a [Bearer Token] with your own API Token from the [Authzed dashboard] in place of `t_your_token_here_1234567deadbeef` in the following example:
 
-[`NewClient()`]: https://pkg.go.dev/github.com/kartikaysaxena/authzed-go/v1#NewClient
+[`NewClient()`]: https://pkg.go.dev/github.com/authzed/authzed-go/v1#NewClient
 [Bearer Token]: https://datatracker.ietf.org/doc/html/rfc6750#section-2.1
 [Authzed Dashboard]: https://app.authzed.com
 [gRPC]: https://grpc.io
@@ -72,7 +72,7 @@ In order to successfully connect, you will have to provide a [Bearer Token] with
 
 ```go
 import (
-	"github.com/kartikaysaxena/authzed-go/v1"
+	"github.com/authzed/authzed-go/v1"
 	"github.com/authzed/grpcutil"
 )
 
@@ -105,8 +105,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
-	"github.com/kartikaysaxena/authzed-go/v1"
+	"github.com/authzed/authzed-go/proto/authzed/api/v1"
+	"github.com/authzed/authzed-go/v1"
 	"github.com/authzed/grpcutil"
 )
 
@@ -155,7 +155,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/kartikaysaxena/authzed-go/v1"
+	"github.com/authzed/authzed-go/v1"
 )
 
 client, err := authzed.NewClient(
