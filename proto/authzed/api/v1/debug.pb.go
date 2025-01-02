@@ -185,7 +185,7 @@ func (CaveatEvalInfo_Result) EnumDescriptor() ([]byte, []int) {
 //
 // The specific debug information returned will depend on the type of the API call made.
 //
-// See the github.com/authzed/authzed-go project for the specific header and footer names.
+// See the github.com/kartikaysaxena/authzed-go project for the specific header and footer names.
 type DebugInformation struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

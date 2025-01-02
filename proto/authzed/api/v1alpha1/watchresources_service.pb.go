@@ -7,7 +7,7 @@
 package v1alpha1
 
 import (
-	v1 "github.com/authzed/authzed-go/proto/authzed/api/v1"
+	v1 "github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

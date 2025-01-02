@@ -1,4 +1,4 @@
-module github.com/authzed/authzed-go/magefiles
+module github.com/kartikaysaxena/authzed-go/magefiles
 
 go 1.22.7
 

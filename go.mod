@@ -1,10 +1,8 @@
-module github.com/authzed/authzed-go
+module github.com/kartikaysaxena/authzed-go
 
 go 1.22.7
 
 toolchain go1.23.1
-
-replace github.com/authzed/authzed-go => github.com/kartikaysaxena/authzed-go v0.1.0-readbulk
 
 require (
 	github.com/authzed/grpcutil v0.0.0-20230908193239-4286bb1d6403
