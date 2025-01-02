@@ -4,7 +4,7 @@ import (
 	"github.com/jzelinskie/stringz"
 	"google.golang.org/grpc"
 
-	v1 "github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
+	v1 "github.com/kartikaysaxena/authzed-go/v0/proto/authzed/api/v1"
 )
 
 // Client represents an open connection to Authzed.

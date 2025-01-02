@@ -6,7 +6,7 @@ package v0
 
 import (
 	fmt "fmt"
-	v1 "github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
+	v1 "github.com/kartikaysaxena/authzed-go/v0/proto/authzed/api/v1"
 	protohelpers "github.com/planetscale/vtprotobuf/protohelpers"
 	proto "google.golang.org/protobuf/proto"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

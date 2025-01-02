@@ -7,7 +7,7 @@
 package v0
 
 import (
-	v1 "github.com/kartikaysaxena/authzed-go/proto/authzed/api/v1"
+	v1 "github.com/kartikaysaxena/authzed-go/v0/proto/authzed/api/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
